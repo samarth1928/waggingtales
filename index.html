@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pet Food Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🐾 Pet Food Store</h1>
+    <a href="cart.html" class="cart-link">🛒 Cart</a>
+</header>
+
+<section class="products">
+
+    <!-- DOG FOODS -->
+    <div class="product">
+        <img src="./images/pedigree_dog_food.png" alt="Pedigree Dog Food">
+        <h3>Pedigree Dog Food</h3>
+        <p>Price (500g): ₹250</p>
+        <select id="p1">
+            <option value="500">500g</option>
+            <option value="1000">1kg</option>
+        </select>
+        <button onclick="addToCart('Pedigree Dog Food',250,'p1')">Add to Cart</button>
+    </div>
+
+    <div class="product">
+       <img src="./images/royal_canin_dog_food.png" alt="Royal Canin Dog Food">
+        <h3>Royal Canin Dog Food</h3>
+        <p>Price (500g): ₹350</p>
+        <select id="p2">
+            <option value="500">500g</option>
+            <option value="1000">1kg</option>
+        </select>
+        <button onclick="addToCart('Royal Canin Dog Food',350,'p2')">Add to Cart</button>
+    </div>
+
+    <div class="product">
+       <img src="./images/SaiKrishna's_adult_dog_food.png" alt="SaiKrishna's Adult Dog Food">
+        <h3>SaiKrishna's Adult Dog Food</h3>
+        <p>Price (500g): ₹220</p>
+        <select id="p3">
+            <option value="500">500g</option>
+            <option value="1000">1kg</option>
+        </select>
+        <button onclick="addToCart('SaiKrishna\'s Adult Dog Food',220,'p3')">Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="./images/Shashwat's_pro_plan_dog.png" alt="Shashwat's Pro Plan Dog">
+        <h3>Shaswat's Pro Plan Dog</h3>
+        <p>Price (500g): ₹300</p>
+        <select id="p4">
+            <option value="500">500g</option>
+            <option value="1000">1kg</option>
+        </select>
+        <button onclick="addToCart('Shaswat\'s Pro Plan Dog',300,'p4')">Add to Cart</button>
+    </div>
+
+    <div class="product">
+       <img src="./images/hill_science_diet_dog.png" alt="Hill Science Diet Dog">
+        <h3>Hill Science Diet</h3>
+        <p>Price (500g): ₹400</p>
+        <select id="p5">
+            <option value="500">500g</option>
+            <option value="1000">1kg</option>
+        </select>
+        <button onclick="addToCart('New Science Diet',400,'p5')">Add to Cart</button>
+    </div>
+
+    <!-- CAT FOODS -->
+    <div class="product">
+        <img src="./images/shreyas_s_cat_food.png" alt="Shreyas S Cat Food">
+        <h3>Shreyas S Cat Food</h3>
+        <p>Price (500g): ₹180</p>
+        <select id="p6">
+            <option value="500">500g</option>
+            <option value="1000">1kg</option>
+        </select>
+        <button onclick="addToCart('Shreyas S Cat Food',180,'p6')">Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="./images/me_o_cat_food.png" alt="Me-O Cat Food">
+        <h3>Me-O Cat Food</h3>
+        <p>Price (500g): ₹160</p>
+        <select id="p7">
+            <option value="500">500g</option>
+            <option value="1000">1kg</option>
+        </select>
+        <button onclick="addToCart('Me-O Cat Food',160,'p7')">Add to Cart</button>
+    </div>
+
+    <div class="product">
+       <img src="./images/royal_canin_cat_food.png" alt="Royal Canin Cat Food">
+        <h3>Royal Canin Cat</h3>
+        <p>Price (500g): ₹280</p>
+        <select id="p8">
+            <option value="500">500g</option>
+            <option value="1000">1kg</option>
+        </select>
+        <button onclick="addToCart('Royal Canin Cat',280,'p8')">Add to Cart</button>
+    </div>
+
+    <!-- BIRD, FISH, RABBIT -->
+    <div class="product">
+        <img src="./images/zupreem_bird_food.png" alt="ZuPreem Bird Food">
+        <h3>ZuPreem Bird Food</h3>
+        <p>Price (500g): ₹120</p>
+        <select id="p9">
+            <option value="500">500g</option>
+            <option value="1000">1kg</option>
+        </select>
+        <button onclick="addToCart('ZuPreem Bird Food',120,'p9')">Add to Cart</button>
+    </div>
+
+    <div class="product">
+       <img src="./images/tetra_fish_food.png" alt="Tetra Fish Food">
+        <h3>Tetra Fish Food</h3>
+        <p>Price (500g): ₹100</p>
+        <select id="p10">
+            <option value="500">500g</option>
+            <option value="1000">1kg</option>
+        </select>
+        <button onclick="addToCart('Tetra Fish Food',100,'p10')">Add to Cart</button>
+    </div>
+
+    <div class="product">
+       <img src="./images/vitakraft_rabbit_food.png" alt="Vitakraft Rabbit Food">
+        <h3>Vitakraft Rabbit Food</h3>
+        <p>Price (500g): ₹170</p>
+        <select id="p11">
+            <option value="500">500g</option>
+            <option value="1000">1kg</option>
+        </select>
+        <button onclick="addToCart('Vitakraft Rabbit Food',170,'p11')">Add to Cart</button>
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
+
